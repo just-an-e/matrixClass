@@ -2,9 +2,9 @@
 
 using namespace std;
 
-template<class T>
-
-class matrix <T> (int vLengthOne, int vLengthTwo) {
-	vector <T> width(vLengthOne);
-	vector <T> length(vLengthTwo);
+class matrix (int vLengthOne, int vLengthTwo) {
+	for (int i = 0; i < vLengthTwo; i++) {
+		vector <int>
+	}
+	
 }
