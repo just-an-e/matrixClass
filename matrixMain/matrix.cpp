@@ -1,5 +1,10 @@
+#include <vector>
+
+using namespace std;
+
 template<class T>
 
-matrix(int, int) {
-
+class matrix <T> (int vLengthOne, int vLengthTwo) {
+	vector <T> width(vLengthOne);
+	vector <T> length(vLengthTwo);
 }

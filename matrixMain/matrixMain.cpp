@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
-#include <matrixHeader.h>
+#include "matrixHeader.h"
 
-extern template matrix;
+using namespace std;
+extern template class matrix<int>;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-	matrix <int>(1, 1);
+	matrix <int> (1, 1);
 }
 

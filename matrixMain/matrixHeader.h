@@ -1,6 +1,13 @@
 #pragma once
 
+using namespace std;
+
 template<class T>
 class matrix {
-	matrix(int, int);
+	public{
+		matrix <T> (int vLengthOne, int vLengthTwo)
+	}
+	private{
+		
+	}
 };
