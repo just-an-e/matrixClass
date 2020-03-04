@@ -4,7 +4,7 @@
 using namespace std;
 
 matrix::matrix(int vLengthOne, int vLengthTwo) {
-	mat.reserve(vLengthOne);
+	mat.resize(vLengthOne);
 	for (int i = 0; i < vLengthOne; i++)
 		mat[i].resize(vLengthTwo);
 }
