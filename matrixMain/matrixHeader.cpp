@@ -4,9 +4,11 @@
 using namespace std;
 
 matrix::matrix(int vLengthOne, int vLengthTwo) {
-	vector <vector <int>> mat(vLengthTwo);
+	mat.reserve(vLengthOne);
+	for (int i = 0; i < vLengthOne; i++)
+		mat[i].resize(vLengthTwo);
 }
 
 void matrix::setCell(int x, int y, int num) {
-	mat[x][y]
+	mat[x][y] = num;
 }

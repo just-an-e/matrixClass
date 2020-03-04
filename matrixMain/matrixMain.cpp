@@ -6,8 +6,11 @@ using namespace std;
 
 int main()
 {
-	matrix(1, 1);
+	matrix test = matrix(1, 1);
 
+	test.setCell(0, 0, 5);
+
+	cout << test.getCell(0, 0);
 
 }
 
