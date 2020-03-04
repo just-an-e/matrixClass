@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="matrix.cpp" />
+    <ClCompile Include="matrixHeader.cpp" />
     <ClCompile Include="matrixMain.cpp" />
   </ItemGroup>
   <ItemGroup>
