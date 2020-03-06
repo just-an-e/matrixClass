@@ -151,11 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="matrixHeader.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="matrixMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="matrixHeader.h" />
+    <ClInclude Include="Matrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

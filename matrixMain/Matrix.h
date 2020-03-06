@@ -3,12 +3,12 @@
 
 using namespace std;
 
-class matrix {
+class Matrix {
 public:
-	matrix(int vLengthOne, int vLengthTwo);
+	Matrix(int vLengthOne, int vLengthTwo);
 	void setCell(int x, int y, int num);
 	int getCell(int x, int y);
 
 private:
-	vector <vector<int>> mat();
+	vector <vector<int>> mat;
 };
